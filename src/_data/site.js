@@ -1,7 +1,7 @@
 module.exports = {
 	title: "Julian Iff",
 	description:
-		"Testproject for 11ty and headless cms",
+		"Colorify Test Project",
 	url: process.env.SITE_URL,
 	author: "Julian Iff",
 	meta_data: {

@@ -29,7 +29,9 @@
 		"node-fetch": "^2.6.1",
 		"npm-run-all": "^4.1.5",
 		"postcss-cli": "^8.3.1",
-		"postcss-import": "^14.0.2",
-		"tailwindcss": "^2.2.6"
+		"postcss-import": "^14.0.2"
+	},
+	"dependencies": {
+		"colorify-design": "^1.6.0"
 	}
 }

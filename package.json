@@ -32,6 +32,6 @@
 		"postcss-import": "^14.0.2"
 	},
 	"dependencies": {
-		"colorify-design": "^1.8.2"
+		"colorify-design": "^1.9.0"
 	}
 }

@@ -13,13 +13,10 @@ build({
 	color: true,
 	allowOverwrite: true,
 	plugins: [sassPlugin()],
-	watch:
-		process.env.NODE_ENV === "production"
-			? false
-			: {
-					onRebuild(error, result) {
-						if (error) console.error("watch build failed:", error);
-						else console.log("watch build succeeded:", result);
-					},
-			  },
+	watch: process.env.NODE_ENV === "production" ? false : {
+		onRebuild(error, result) {
+			if (error) console.error("watch build failed:", error);
+			else console.log("watch build succeeded:", result);
+		},
+	},
 });
